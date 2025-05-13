@@ -1,6 +1,6 @@
 const Header = (props) => {
 
-  console.log("He aparecido y traigo estos props: ", props)
+  console.log("Soy Header y traigo estos props: ", props)
 
   return(
     <>
