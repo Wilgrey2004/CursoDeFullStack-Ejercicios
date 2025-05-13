@@ -1,9 +1,13 @@
+
 const Total = (props) => {
-  console.log("He aparecido y traigo estos props: ", props)
+
+  console.log("Soy total y traigo estos props: ", props)
+  let total = 0;
+  props.parts.map((parent) => total += parent.exercises)
   return(
     <>
       <p>
-        Number of exercises {props.exercises1 + props.exercises2 + props.exercises3}
+        Number of exercises  {total}
       </p>
     </>
   )
